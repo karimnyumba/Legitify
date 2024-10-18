@@ -5,7 +5,14 @@
         v-model="open"
         class="bg-secondary-focus/40 relative mt-2 mr-2 ml-1 rounded-md"
       >
-        <div class="hover:rotate-180"><Logo :width="50" :height="80" /></div>
+        <div class="w-full bg-[#e9ebef] flex justify-center">
+          <v-img
+            width="100"
+            height="100"
+            src="@/assets/images/ newlg.jpg"
+            class="hover:cursor-pointer"
+          />
+        </div>
 
         <hr class="border-neutral-50" />
         <!-- <SidebarImage></SidebarImage> -->
@@ -50,7 +57,7 @@
           @click.stop="open = !open"
         ></v-app-bar-nav-icon>
         <v-toolbar-title class="flex items-center gap-2">
-          <p class="text-2xl font-bold">SECDOC</p>
+          <p class="text-2xl font-bold">Legitify</p>
           <p class="text-xl text-green-900 font-semibold">{{ name }}</p>
         </v-toolbar-title>
 

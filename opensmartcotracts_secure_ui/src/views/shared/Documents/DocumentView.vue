@@ -12,7 +12,7 @@
 
 <script>
 import PdfViewer from "@/components/shared/PdfViewer.vue";
-import { ipfsGateway } from "../../../../secDocConstants";
+import { ipfsGateway } from "../../../../LegitifyConstants";
 import AppHeader from "@/components/shared/AppHeader.vue";
 import { decodeText, getBinaryFromBase64 } from "@/interfaces/global.interface";
 

@@ -2,7 +2,14 @@
   <div>
     <nav>
       <v-navigation-drawer v-model="open" class="">
-        <Logo></Logo>
+        <div class="w-full bg-[#e9ebef] flex justify-center">
+          <v-img
+            width="100"
+            height="100"
+            src="@/assets/images/ newlg.jpg"
+            class="hover:cursor-pointer"
+          />
+        </div>
         <NavigationLinks :menu="menu"></NavigationLinks>
       </v-navigation-drawer>
       <v-toolbar class="bg-primary2 text-white" flat>
@@ -10,7 +17,7 @@
           class="hidden-md-and-up"
           @click.stop="open = !open"
         ></v-app-bar-nav-icon>
-        <v-toolbar-title class="text-2xl font-bold">SECDOC</v-toolbar-title>
+        <v-toolbar-title class="text-2xl font-bold">Legitify</v-toolbar-title>
         <v-btn router to="/" icon>
           <v-icon router to="/">mdi-logout</v-icon>
         </v-btn>

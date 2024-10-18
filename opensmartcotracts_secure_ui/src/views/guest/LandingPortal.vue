@@ -11,7 +11,7 @@
     >
       <h2 class="pl-10 text-xl flex items-center font-extrabold flex-row gap-1">
         <v-icon> mdi-key</v-icon>
-        SECDOC
+        Legitify
       </h2>
       <ul
         class="flex flex-row text-base gap-3 justify-around items-center pr-10"
@@ -41,11 +41,11 @@
 
       <div class="mt-4">
         <p class="text-sm text-secondary-content font-normal w-1/3">
-          With Secdoc, you can bid farewell to the uncertainties and
+          With Legitify, you can bid farewell to the uncertainties and
           vulnerabilities of traditional document handling methods and embrace a
           future where authenticity and integrity are guaranteed. Explore our
           website to learn more about our innovative approach, and discover how
-          Secdoc is revolutionizing the way we verify documents in the digital
+          Legitify is revolutionizing the way we verify documents in the digital
           age.
         </p>
       </div>
@@ -150,7 +150,7 @@
               <p>
                 Safely store and organize your documents in our secure cloud
                 storage solution. Access your files from anywhere, anytime, and
-                never worry about losing important paperwork again.  
+                never worry about losing important paperwork again.
               </p>
             </div>
           </div>
@@ -219,7 +219,7 @@
 <script>
 import dashboard from "../dashboard.vue";
 import { ethers } from "ethers";
-import { abi, contractAddress } from "../../../secDocConstants";
+import { abi, contractAddress } from "../../../LegitifyConstants";
 import { defineComponent } from "vue";
 import SvgBackgound1 from "@/components/icons/svg-backgound-1.vue";
 import SvgBackground2 from "@/components/icons/svg-background-2.vue";
