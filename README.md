@@ -8,6 +8,17 @@ Legitify is the solution that directly addresses the challenges of document frau
 #### -> This project includes two separate folders, one contains smart contracts and logic, while the second includes the user interface.
 #### -> Each folder contains individual readMe and an explanation of installing and testing.
 
+## Technologies 
+`` SMART CONTRACT `` -> We have used solidity to write it, deploy and test it under HARDHAT, 
+
+`` USER INTERFACE ``  -> We have used Vuejs (a javascript-based) framework to build this application
+
+`` BLOCKCHAIN NETWORK `` -> We have used conveniently Base blockchain to build this DAPP, deployed under its test network Base sepolia.
+
+`` INTEGRATION `` -> For the integration between the web app and blockchain network we have used ethersjs for that, it was convenient for us to use.
+
+`` FILE STORAGE `` -> We have utilized the capability of IPFS to store our files in a decentralized manner, and they have been pinned under Infura nodes.
+
 ## Gallery
 ![image](https://github.com/user-attachments/assets/71c6ccd3-a0cb-4c65-a8f9-709f5ae96d9f)
 ![image](https://github.com/user-attachments/assets/1273490c-385e-4405-9635-bde75c6d04cc)
