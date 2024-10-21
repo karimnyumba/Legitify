@@ -6,8 +6,9 @@ Legitify is the solution that directly addresses the challenges of document frau
 
 ## Project Structure && testing
 -> This project includes two separate folders, one contains smart contracts and logic, while the second includes the user interface.
--> Testing the project functionalities 
-###   The Private key of the demo account.
+
+-> Testing the project functionalities requires the registered institution account, which has been verified as the certificate issuer, we have a few registered institutions and for  this demo, we are going to use UDSM, and below are the shared credentials for it.
+###   The Private key of the demo account (Import it on the wallet to test it )
 ### 
      6ebcba06b7d80d4d8a601fe01cb6743eb9b963aa28929737a90e3d9186bac830  
      
