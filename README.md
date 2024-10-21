@@ -4,20 +4,27 @@
 ## Introduction 
 Legitify is the solution that directly addresses the challenges of document fraud and certificate forgery by leveraging the Base blockchain to create tamper-proof and verifiable certificates. With Legitify, every uploaded document is cryptographically secured and stored on IPFS, ensuring that it remains immutable and accessible across decentralized nodes. This eliminates the risks associated with centralized storage, such as manipulation, data loss, or corruption.
 
-## Project Structure
-#### -> This project includes two separate folders, one contains smart contracts and logic, while the second includes the user interface.
-#### -> Each folder contains individual readMe and an explanation of installing and testing.
+## Project Structure && testing
+-> This project includes two separate folders, one contains smart contracts and logic, while the second includes the user interface.
+-> Testing the project functionalities 
+###   The Private key of the demo account.
+### 
+     6ebcba06b7d80d4d8a601fe01cb6743eb9b963aa28929737a90e3d9186bac830  
+     
+
+
+ 
 
 ## Technologies 
 `` SMART CONTRACT `` -> We have used solidity to write it, deploy and test it under HARDHAT, 
 
 `` USER INTERFACE ``  -> We have used Vuejs (a javascript-based) framework to build this application
 
-`` BLOCKCHAIN NETWORK `` -> We have used conveniently Base blockchain to build this DAPP, deployed under its test network Base sepolia.
+`` BLOCKCHAIN NETWORK `` -> We have used conveniently Base blockchain to build this DAPP, which is deployed under its test network Base sepolia.
 
 `` INTEGRATION `` -> For the integration between the web app and blockchain network we have used ethersjs for that, it was convenient for us to use.
 
-`` FILE STORAGE `` -> We have utilized the capability of IPFS to store our files in a decentralized manner, and they have been pinned under Infura nodes.
+`` FILE STORAGE `` -> We have utilized IPFS's capability to store our files decentralized, and they have been pinned under Infura nodes.
 
 ## Gallery
 ![image](https://github.com/user-attachments/assets/71c6ccd3-a0cb-4c65-a8f9-709f5ae96d9f)
